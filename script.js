@@ -16,11 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'card4', img: 'images/rollsafe.png' },
         { name: 'card5', img: 'images/success.png' },
         { name: 'card5', img: 'images/success.png' },
+        { name: 'card6', img: 'images/ouch.png' },
+        { name: 'card6', img: 'images/ouch.png' },
         // ...add more pairs as needed
     ];
 
     function shuffle(array) {
-        array.sort(() => 0.5 - Math.random());
+        array.sort(() => 0.6 - Math.random());
     }
 
     function createBoard() {
